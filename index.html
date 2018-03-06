@@ -225,30 +225,47 @@
   </div>
   <div class="row">
 
-<div class="col-sm-4">
+<div class="col-sm-12">
 <div class="panel panel-default">
   <div class="panel-body"><center><h1>Competition - Mobile<h1>
-  <br><h2>Complete these tasks to find the secret letters. After you've found the 4 letters, unscramble the word and submit it through the form below. If you submit the correct word, you've won the competition!</h2>
+  <br><h3>Complete these tasks to find the secret letters. After you've found the 4 letters, unscramble the word and submit it through the form below. If you submit the correct word, you've won the competition!</h3></center>
     <br>
+    <ul class="list-group">
     
+  <li class="list-group-item"><div class="checkbox">
+  <label><input type="checkbox" value="">Find your bill online</label>
+</div></li>
+
+  <li class="list-group-item"><div class="checkbox">
+  <label><input type="checkbox" value="">Set up automatic monthly payments</label>
+</div></li>
+
+  <li class="list-group-item"><div class="checkbox">
+  <label><input type="checkbox" value="">Add your credit card information as a payment method</label>
+</div></li>
+
+  <li class="list-group-item"><div class="checkbox">
+  <label><input type="checkbox" value="">Change your preferences</label>
+</div></li>
+
+
+
+</ul>
+
+<br><br>
     
-    <form class="form-horizontal" action="/action_page.php">
+ <form class="form-horizontal" action="/action_page.php">
   <div class="form-group">
-    <label class="control-label col-sm-2" for="word">Secret Word:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter the "Secret Word" to win the competition">
-    </div>
+   <h3><label for="secret">Secret Word:</label></h3>
+    <input type="secret" class="form-control" id="secret">
   </div>
  
-  </div>
-  <div class="form-group"> 
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Finish!</button>
-    </div>
-  </div>
+  <button type="submit" class="btn btn-default">Submit and Finish Competition!</button>
 </form>
-    
-    
+ 
+ 
+ 
+    <br><br><br><br>
     
     
   </center></div>
